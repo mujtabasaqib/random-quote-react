@@ -1,38 +1,45 @@
-.App {
+#tweet-quote {
+  margin-bottom: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#new-quote{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  background-color: orange;
+  margin-bottom: 5px;
+  margin-left: 60%;
+}
+
+#quote-box {
+  border: 1px solid black;
+  flex: 0.5;
+  background-color: azure;
+}
+
+#text {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  font-style: italic;
   text-align: center;
+  font-size: large;
+  margin-top: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#author {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
+  height: 100vh;
+  border: 2px solid black;
+  background-color:blanchedalmond;
 }
